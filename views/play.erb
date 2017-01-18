@@ -4,9 +4,9 @@
 <body>
   It's <%= @name_01 %> vs. <%= @name_02 %>!
 
-  <%= @name_02 %>: 100 hit points
+  <%= @name_02 %>: <%= @health_02 %> / 100 HP
 
-  <form action="/status">
+  <form action="/attack">
     <input type="submit" value="attack" />
   </form>
 
